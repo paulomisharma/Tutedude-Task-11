@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <section class="pay-method">
+      <div class="checkout">
+        <h5>Checkout</h5>
+        <h2>Contact Details</h2>
+        <p>Email ID</p>
+        <input type="email" class="email", placeholder="johndoe@gmail.com">
+        <h2>Payment</h2>
+       
+          <div class="pay-wrap">
+        <div class="payment-options">
+         
+        <div class="payment-option">
+            <span class="payment-icon">&#128179;</span>
+            <span>Card</span>
+        </div>
+
+        <div class="payment-option">
+            <span class="payment-icon">&#8383;</span>
+            <span>Crypto</span>
+        </div>
+        <div class="payment-option">
+            <span class="payment-icon">&#127974;</span>
+            <span>Bank</span>
+        </div>
+
+        <div class="more-payment-option">
+            <span class="more-dots">&#x22EE;</span>
+        </div>
+        </div>
+
+        <p>Card Number</p>
+        <input type="text" class="card-number" placeholder="XXXX XXXX XXXX" maxlength="19">
+        
+        <div class="expiry-cvv">
+        <div class="card-details">
+        <p>Expiry</p>
+        <input type="text" placeholder="MM/YY">
+       </div>
+        <div class="card-details">
+        <p>CVC</p>
+        <input type="password" placeholder="...">
+        </div>
+        </div>
+ 
+        <div class="residential-info">
+        <div class="country-info">
+        <p>Country</p>
+
+        <select class="country-select">
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            
+        </select>
+
+        </div>
+        
+        <div class="zip-code">
+        <p>ZIP</p>
+        <input type="text" placeholder="XXXX">
+        </div>
+        </div>
+        </div>
+      </div>
+
+         <div class="order-summry">
+        <h2>Order Summry</h2>
+       
+        <div class="price-review">
+         
+            <p>Enter Coupon Code</p>
+            <div class="coupon-row"><input class="coupon-code" type="text" placeholder="COUPON CODE">
+            <button class="apply-coupon-btn">Apply Coupon</button>
+        </div>
+            
+            <article class="amount-review">
+                <p class="total">Sub Total</p>
+                <p class="price">&#8377;4,700</p>
+            </article>
+            <article class="amount-review">
+                <p class="total">Taxes(if applicable)</p>
+                <p class="price">&#8377;199</p>
+            </article>
+            <article class="amount-review">
+                <p class="total">Discount</p>
+                <p class="price">&#8377;0</p>
+            </article>
+            <article class="amount-review">
+                <p class="total1"><b>Total</b></p>
+                <p class="price1"><b>&#8377;4,999</b></p>
+            </article>
+            </div>
+            
+            <div class="payment-btn">
+                <a href="payment.html">
+              <button class="pay-btn">Pay Now &#8377;4,999</button></a>
+              </div>
+            
+          <div class="pay-icons">
+            <img src="https://as2.ftcdn.net/jpg/05/46/28/85/1000_F_546288550_n6kmTwWOjoCJExhcMJgExtEQVhuvSbwg.jpg" alt="service">
+          
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-razorpay-logo-icon-svg-download-png-1399875.png?f=webp" alt="Razorpay">
+          
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/029/889/672/small_2x/secure-payment-credit-card-icon-with-shield-secure-transaction-stock-illustration-vector.jpg" alt="Secure Payment">
+
+        </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
